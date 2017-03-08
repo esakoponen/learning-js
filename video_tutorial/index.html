@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning JS</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+    <div class="header" id='heading'>
+        <h1>Learning JS</h1>
+        <p>This is a test</p>
+    </div>
+    <div class="container">
+        <h2 id='header2'>This is a sub-header</h2>
+        <h3 id='date'>Date is shown here once you click</h3>
+        <!-- -->
+        <p>This is more text. Lorem ipsum bla asd asd qwdjlkad asd asd asd asd kljas dlkasjd kljalksdj asdlk jlaskjdj aksjd as a lkasjd lkjaslkd alkdj lkasjd lkajsd lkjalksdj lkjslkd jaklsdj aks jaslkd jkalsd jlkasj d.</p>
+
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+
+        <button onclick="changeText()">Change text</button>
+        <button onclick="resetCounter()">Reset</button>
+        <button onmouseover="changeText()">Hover!</button>
+    </div>
+    <!-- Add form to submit some user data -->
+    <!-- simple example on how to do form validation -->
+    <div>
+        <form method="post" action="something.php" name="myForm" onsubmit="validateForm()">
+            <div>
+                <label>First name</label>
+                <input type="text" name="firstName" id="firstName" />
+            </div>
+            <div>
+                <label>Last name</label>
+                <input type="text" name="lastName" id="lastName" />
+            </div>
+            <br />
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+</html>
